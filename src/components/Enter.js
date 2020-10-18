@@ -16,7 +16,7 @@ class Enter extends Component {
         <span id="G">A</span>
         <span id="H">L</span>
         <span id="T">K</span>
-
+        <br />
         <img className="gothDoor" 
         alt="gothDoor" 
         src={gothDoor}/>

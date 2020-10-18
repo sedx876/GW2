@@ -3,7 +3,8 @@
   }
   body {
     margin: 0;
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
+    font-family: 'Special Elite', cursive;
     font-size: 40px;
     color: var(--white);
     letter-spacing: 0.7em;
