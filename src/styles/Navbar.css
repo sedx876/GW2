@@ -1,3 +1,9 @@
-*{
+.navbar{
   color: crimson;
+  font-size: 15px;
+}
+
+#root > div > nav > a{
+  color: crimson;
+  font-size: 20px;
 }

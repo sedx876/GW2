@@ -32,13 +32,13 @@ const Navbar = () => {
           to='/about'>
           <img className='dLogo' />About</NavLink>
       </li>
-
+      
       <li className="nav-item">
         <NavLink 
           className="nav-link" 
           exact activeClassName="active" 
           to='/characters'>
-          <img className='tyr' alt="tyr logo" />Characters</NavLink>
+          <img className='tyr' />Behind The Scenes</NavLink>
       </li>
 
       <li className="nav-item">
@@ -46,7 +46,7 @@ const Navbar = () => {
         className="nav-link" 
         exact activeClassName="active" 
         to='/characters/new'>
-        <img className='barLogo' alt="barbarian logo" />Add New Character Build</NavLink>
+        <img className='barLogo' />Press</NavLink>
       </li>
 
       <li className="nav-item">
@@ -54,7 +54,7 @@ const Navbar = () => {
           className="nav-link" 
           exact activeClassName="active" 
           to='/farminglist'>
-          <img className='dhLogo' alt="dh logo" />Farming List</NavLink>
+          <img className='dhLogo' />Films</NavLink>
       </li>
 
       <li className="nav-item">
@@ -62,7 +62,7 @@ const Navbar = () => {
           className="nav-link" 
           exact activeClassName="active" 
           to='/farminglist/new'>
-          <img className='monkLogo' alt="monk logo" />Add Item to Farming List</NavLink>
+          <img className='monkLogo' />Development</NavLink>
       </li>
 
       <li className="nav-item">
@@ -70,7 +70,23 @@ const Navbar = () => {
           className="nav-link" 
           exact activeClassName="active" 
           to='/links'>
-          <img className='portal' alt="portal" />Diablo Links</NavLink>
+          <img className='portal' />News</NavLink>
+      </li>
+
+      <li className="nav-item">
+        <NavLink 
+          className="nav-link" 
+          exact activeClassName="active" 
+          to='/links'>
+          <img className='portal' />More</NavLink>
+      </li>
+
+          <li className="nav-item">
+          <NavLink 
+          className="nav-link" 
+          exact activeClassName="active" 
+          to='/links'>
+          <img className='portal' />Contact</NavLink>
       </li>
     </ul>
   </div>
