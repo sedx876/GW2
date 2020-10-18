@@ -4,7 +4,9 @@ import '../styles/Home.css'
 const Home = () => {
 
   return (
-    <div>Welcome</div>
+    <div>
+      <h2>Welcome</h2>
+    </div>
   )
 }
 
