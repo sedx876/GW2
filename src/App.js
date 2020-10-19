@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import About from './components/About'
+import News from './components/News'
 
 import './styles/App.css';
 
@@ -14,7 +15,8 @@ function App() {
       {/* <Enter /> */}
       <Navbar />
       {/* <Home /> */}
-      <About />
+      {/* <About /> */}
+      <News />
       <Footer />
     </div>
   );
