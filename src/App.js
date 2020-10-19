@@ -4,6 +4,7 @@ import "bootswatch/dist/cyborg/bootstrap.min.css"
 import Home from './components/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import About from './components/About'
 
 import './styles/App.css';
 
@@ -12,7 +13,8 @@ function App() {
     <div className="App">
       {/* <Enter /> */}
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      <About />
       <Footer />
     </div>
   );

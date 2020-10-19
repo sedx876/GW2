@@ -1,0 +1,11 @@
+.card-header{
+  font-size: 40px;
+}
+
+.card-title{
+  text-decoration: underline;
+}
+
+.card-text{
+  font-size: 20px;
+}
