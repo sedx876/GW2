@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import About from './components/About'
 import News from './components/News'
+import BehindTheScenes from './components/BehindTheScenes'
 
 import './styles/App.css';
 
@@ -16,7 +17,8 @@ function App() {
       <Navbar />
       {/* <Home /> */}
       {/* <About /> */}
-      <News />
+      {/* <News /> */}
+      <BehindTheScenes/>
       <Footer />
     </div>
   );
